@@ -1,8 +1,6 @@
-public class VehiculoTurismo {
-    private String marca;
-    private String modelo;
-    private double precioBase;
-    private int numeroPlazas;
+public class VehiculoTurismo extends Vehiculo {
+    private int numPlazas;
+ 
 
     public VehiculoTurismo(String marca, String modelo, double precioBase, int numeroPlazas) {
         this.marca = marca;
